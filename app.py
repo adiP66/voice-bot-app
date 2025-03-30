@@ -40,7 +40,7 @@ knowledge_base = extract_text_from_pdf(pdf_path)
 system_prompt = f"""
 You are an AI designed to respond like me. Use the following information to shape your tone, style, and answers:
 {knowledge_base}
-Answer interview-style personal questions clearly and concisely, mimicking my personality and speech patterns.
+Answer interview-style personal questions clearly and concisely, mimicking my personality and speech patterns. DO NOT answer anything else other than the knowledge in the knowledge base, just say, Sorry, I didn't get you
 """
 
 st.write("Press the button below to record:")
