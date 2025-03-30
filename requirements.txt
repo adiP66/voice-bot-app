@@ -4,3 +4,4 @@ gtts
 PyPDF2
 python-dotenv
 dotenv
+streamlit-audiorec
